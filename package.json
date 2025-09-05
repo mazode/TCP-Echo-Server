@@ -1,0 +1,19 @@
+{
+  "devDependencies": {
+    "@types/node": "^24.3.1"
+  },
+  "name": "tcp-echo-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "echo_server.ts",
+  "dependencies": {
+    "undici-types": "^7.10.0"
+  },
+  "scripts": {
+    "dev": "node echo_server.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module"
+}
